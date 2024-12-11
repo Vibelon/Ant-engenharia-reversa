@@ -8,7 +8,7 @@ nomes = nomes.split()
 z = ""
 nomes_alterados = []
 for x in range(len(nomes)):
-    for y in range(0,20):
+    for y in range(0,1000):
         z = z + str(random.randint(1000,2000))
     z = "a" + z
     nomes_alterados.append(z)
